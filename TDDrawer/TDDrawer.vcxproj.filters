@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Canva">
+      <UniqueIdentifier>{53abdfc0-48ca-4a10-b6fb-6189dd710fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyMat">
+      <UniqueIdentifier>{2fd0b812-7e84-4472-b801-2904b681c401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CoorTransition">
+      <UniqueIdentifier>{e227d142-c7ad-4b78-b0ad-1fdbf323eada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ViewZone">
+      <UniqueIdentifier>{dfb22de9-4729-4084-bf47-7b695752d055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MessageQueue">
+      <UniqueIdentifier>{22f2ad1e-1435-4331-97ad-e602720c702f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyGraphic">
+      <UniqueIdentifier>{f0e4f85b-78cb-4b02-bfbf-9252eac445ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ArticalGraphic">
+      <UniqueIdentifier>{acaf2dbf-f5b6-42be-97e2-afc3af98655c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Canva.cpp">
+      <Filter>头文件\Canva</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewZone.cpp">
+      <Filter>头文件\ViewZone</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageQueue.cpp">
+      <Filter>头文件\MessageQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGraphic.cpp">
+      <Filter>头文件\MyGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="ArticalGraphic.cpp">
+      <Filter>头文件\ArticalGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="CoorTransition.cpp">
+      <Filter>头文件\CoorTransition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Canva.h">
+      <Filter>头文件\Canva</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMat.hpp">
+      <Filter>头文件\MyMat</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewZone.h">
+      <Filter>头文件\ViewZone</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.hpp">
+      <Filter>头文件\MessageQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGraphic.h">
+      <Filter>头文件\MyGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="ArticalGraphic.h">
+      <Filter>头文件\ArticalGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="CoorTransition.h">
+      <Filter>头文件\CoorTransition</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
